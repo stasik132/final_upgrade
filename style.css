@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "bebas";
+    src: url(../fonts/Bebas.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "sans";
+    src: url(../fonts/OpenSans-Regular.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.hero {
+    background-image: url(../img/bg\ image\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hero_content {
+    letter-spacing: 0.1em;
+    margin-top: -280px;
+    font-family: bebas;
+    height: 180vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero_content h1 {
+    font-weight: 300;
+    font-size: 100px;
+    color: white;
+}
+.hero_content h2 {
+    font-weight: 300;
+    font-size: 30px;
+    padding-top: 10px;
+    color: white;
+}
+.hero_content a {
+    font-size: 17px;
+    padding: 15px 40px 15px 40px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 30px;
+    background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
+    color: black;
+    font-weight: 300;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+.logo_platform {
+    margin-top: 30px;
+}
+.xbox {
+    padding-right: 20px;
+}
+.nav_links {
+    font-family: "sans";
+    margin: 30px;
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    margin-top: 10px;
+}
+.nav_links a {
+    text-decoration: none;
+    color: white;
+}
+.idol {
+    background-image: url(../img/bg\ image\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.idol_content {
+    display: flex;
+    justify-content: space-around;
+}
+.idol_content_left {
+    font-family: "bebas";
+    height: 800px;
+    width: 400px;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.idol_content_left h2 {
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 90px;
+}
+.idol_content_left h3 {
+    font-weight: 300;
+    font-size: 24px;
+}
+.idol_content_left p {
+    font-weight: 60;
+    font-family: "sans";
+    font-size: 18px;
+}
+.line2 {
+    height: 2px;
+    width: 500px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.idol_content_right {
+    display: flex;
+    align-items: center;
+}
+.idol_content_right img {
+    border-radius: 5px;
+}
